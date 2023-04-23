@@ -60,7 +60,7 @@ AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001876764500'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '𝓢𝓪𝓲')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), False)
-IMDB = is_enabled((environ.get('IMDB', 'False')), False)
+IMDB = is_enabled((environ.get('IMDB', 'True')), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), False)
 CUSTOM_FILE_CAPTION = environ.get(
   "CUSTOM_FILE_CAPTION",
