@@ -64,11 +64,11 @@ IMDB = is_enabled((environ.get('IMDB', 'True')), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), False)
 CUSTOM_FILE_CAPTION = environ.get(
   "CUSTOM_FILE_CAPTION",
-  "<code>{file_name}</code> \n\n</i>Join</i> [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/sSai_Moviezz)
+  "{file_name} \n\n</i>Join</i> [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/sSai_Moviezz)
 )
 BATCH_FILE_CAPTION = environ.get(
   "BATCH_FILE_CAPTION",
-  "<code>{file_name}</code> \n\n</i>Join</i> [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/sSai_Moviezz)"
+  "{file_name} \n\n</i>Join</i> [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/sSai_Moviezz)"
 )
 IMDB_TEMPLATE = environ.get(
   "IMDB_TEMPLATE",
