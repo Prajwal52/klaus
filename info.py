@@ -64,15 +64,15 @@ IMDB = is_enabled((environ.get('IMDB', 'True')), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), False)
 CUSTOM_FILE_CAPTION = environ.get(
   "CUSTOM_FILE_CAPTION",
-  "📂 <em>File Name</em> : <code>{file_name}</code> \n\n🖇 <em>File Size</em>: <code>{file_size}</code> \n\n</i>Join</i> [⚡️𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/sai_movies_update)  \n\n🖥 <i>Requests</i> - ||@sai_movies27||"
+  "<code>{file_name}</code> \n\n</i>Join</i> [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/sSai_Moviezz)
 )
 BATCH_FILE_CAPTION = environ.get(
   "BATCH_FILE_CAPTION",
-  "📂 <em>File Name</em>: <code>𝓚𝓵𝓪𝓾𝓼™|{file_name}</code> \n\n🖇 <em>File Size</em>: <code>{file_size}</code> </i>Join</i> [⚡️𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/sai_movies_update)  \n\n🖥 <i>Requests</i> - ||@sai_movies27||"
+  "<code>{file_name}</code> \n\n</i>Join</i> [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/sSai_Moviezz)"
 )
 IMDB_TEMPLATE = environ.get(
   "IMDB_TEMPLATE",
-  "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10 \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [𝓚𝓵𝓪𝓾𝓼™](https://t.me/sai_movies_update)"
+  "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10 \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/Sai_Moviezz)"
 )
 LONG_IMDB_DESCRIPTION = is_enabled(
   environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
