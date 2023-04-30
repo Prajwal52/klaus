@@ -62,8 +62,8 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '𝓢𝓪𝓲')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), False)
 IMDB = is_enabled((environ.get('IMDB', 'True')), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "{file_name}\n\n <b>Join [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/Sai_Moviezz)</b>")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "{file_name}\n\n <b>Join [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/Sai_Moviezz)</b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_name}\n\n Join [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/Sai_Moviezz)</b>")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b>{file_name}\n\n Join [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/Sai_Moviezz)</b>")
 IMDB_TEMPLATE = environ.get(
   "IMDB_TEMPLATE",
   "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10 \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [𝓢𝓪𝓲 𝓜𝓸𝓿𝓲𝓮𝓼](https://t.me/Sai_Moviezz)"
